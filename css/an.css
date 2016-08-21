@@ -1,0 +1,91 @@
+.outercover{
+  padding: 0px;
+  height: 300px;
+  width: 90%;
+  border:2px solid black;
+  border-radius : 20px 0px 20px 0px ; 
+  box-shadow: 0px 10px 20px grey ,-10px -10px 20px grey;
+  background-color: blue;
+  background-image: url(../images/ps3.jpg);
+  overflow: hidden;
+  background-size: 100% 100%;
+  transition : 1s all ease;
+  background-repeat: no-repeat;
+  margin: 100px auto;
+}
+
+.outercover:hover{
+  background-position: 0px;
+  background-size: 50% 100%;
+  
+}
+
+
+.innercover{
+  height: 100%;
+  width : 50%;
+  text-align: center;
+  position: relative;
+  left : 50%;
+  color: beige;
+  top : 0px;
+  margin: 0px;
+  background: linear-gradient(to right bottom,purple,#0080ff);
+  border-radius: 0px 0px 20px  0px;
+  
+}
+
+.service-header{
+ 
+  padding-top: 40px;
+  margin: 0px;
+  text-shadow: 5px 5px 5px  black;
+  font-family: 'Hind Madurai', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+.service-text{
+  
+ 
+  font-family: 'Fjalla One', sans-serif;
+  text-align: center;
+  padding: 30px;
+}
+
+
+
+.underline{
+  width : 50%;
+  height: 3px;
+  margin: 10px auto; 
+  background:  linear-gradient(to right , blueviolet,purple);
+  box-shadow: 4px 3px 2px black;
+}
+
+#list{
+  display: none;
+  padding: 10px;
+  transition: 2s all ease;
+  border: 1px solid black;
+  border-radius: 4px; 
+  margin: 30px auto ;  
+  font-family: 'Josefin Slab', serif;
+  font-weight : bold;
+}
+
+
+#list td{
+  padding: 2px;
+  
+}
+
+
+
+#description{
+   margin: 30px auto ;  
+}
+
+
+.modal-content{
+  margin-top: 200px ;
+}

@@ -1,0 +1,60 @@
+.page-header{
+  margin-top: 120px;
+  font-family: 'Fjalla One', sans-serif;
+	text-align : center;
+}
+	.layer1{
+  margin: 30px auto;
+  
+ 
+}
+
+
+.panel-heading{
+  text-align: center;
+}
+
+
+
+
+.checkbox{
+  padding-top:20px; 
+}
+
+.form-above{
+  text-align: center;
+  font-weight : bold;
+  margin: 20px auto;
+  font-size: 20
+  
+}
+
+
+[tooltip]:before {
+    /* needed - do not touch */
+    content: attr(tooltip);
+    position: absolute;
+    opacity: 0;
+    
+    /* customizable */
+    transition: all 0.15s ease;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px silver;    
+}
+
+[tooltip]:hover:before {
+    /* needed - do not touch */
+    opacity: 1;
+    
+    /* customizable */
+    background: #068f87;
+    margin-top: -50px;
+    margin-left: 20px;    
+}
+
+[tooltip]:not([tooltip-persistent]):before {
+    pointer-events: none;
+}
+

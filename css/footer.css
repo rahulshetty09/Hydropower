@@ -1,0 +1,81 @@
+
+footer{
+	width : 100%;
+	color : white;;
+	position: relative;
+	border-top: 2px solid black;
+	position: relative;
+	background:black;
+	
+}
+
+.footer-inner{
+	text-align: left;
+	
+}
+
+
+
+.footer-about-us-text{
+	 font-family: 'Taviraj', serif;
+	width : 70%;
+	font-size: 17px;
+}
+
+.footer-hours,.footer-links{
+	
+	padding-left: 0px;
+	 font-family: 'Taviraj', serif;
+	font-size: 17px;
+}
+.footer-links{
+		padding-left:40px; 
+}
+.footer-links-header{
+	padding-left: 30px;
+}
+.product-links:hover{
+	text-decoration: none;	
+	color : red ; 
+}
+.product-links{
+	color: white;;
+	 font-family: 'Taviraj', serif;
+
+}
+
+
+
+
+
+
+
+
+.end-strip{
+	color:  white;
+	position: absolute;
+	background:linear-gradient(#737373, #333333);
+	bottom: 0px;
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	font-weight: bold;
+	
+	
+}
+.link-endstrip{
+	height: 84px;
+}
+.copyright{
+	float: left;
+}
+
+.design-text{
+	float: right;
+}
+
+.footer-header{
+	padding-bottom: 10px;
+	padding-top: 30px;
+	font-family: 'Hind Madurai', sans-serif;
+}

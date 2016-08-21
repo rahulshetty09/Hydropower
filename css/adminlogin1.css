@@ -1,0 +1,21 @@
+.welcome{
+  margin:150px 30px;
+ font-size: 30px;
+ text-decoration: underline;
+  margin-bottom: 100px;
+  font-family: 'Fjalla One', sans-serif;
+ 
+}
+
+#container{
+  margin-bottom: 60px;
+  
+}
+
+.button-text{
+  text-align: center;
+  padding: 20px 0px;
+  font-family: 'Hind Madurai', sans-serif;
+  font-weight: bold;
+ 
+}

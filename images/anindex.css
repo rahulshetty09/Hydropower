@@ -1,0 +1,86 @@
+.outercontainer{
+  
+  height :510px;
+  width: 100%;
+  
+}
+.innercontainer{
+  height :470px;
+  width: 100%;
+  float: none;
+  margin: 40px auto;
+   
+}
+
+.service{
+  padding: 0;
+  
+}
+.serviceimage{
+  
+  width : 219px;
+  height: 219px;
+  border: 10px solid lightgrey;
+  border-radius: 110px; 
+  transition : .5s all ease-in-out;
+  background-size: cover;
+}
+
+#serviceimage1:hover{
+  border-color:red;
+}
+#serviceimage2:hover{
+  border-color:blue;
+}
+
+#serviceimage3:hover{
+  border-color:yellow;
+}
+
+#serviceimage1{
+  background-image: url(../images/industry.jpg);
+  background-size: contain;
+}
+#serviceimage2{
+  background-image: url(../images/tap.jpg);
+}
+#serviceimage3{
+  background-image: url(../images/tap.jpg);
+}
+
+.underline{
+  width : 100%;
+  height: 3px;
+  margin: 20px 0px; 
+}
+
+#underline1{
+	 background-color: red;
+}
+
+#underline2{
+	 background-color:blue ;
+}
+
+#underline3{
+	 background-color: yellow;
+}
+
+
+
+
+.servicename{
+  margin-top: 20px;
+  font-weight: bold;
+  text-align: center;
+  
+}
+
+.servicetext{
+  text-align: center;
+  font-size: 13px;
+  color : black;
+  opacity : 1;
+  font-weight :bold ; 
+  padding: 0px 12px;
+  }
