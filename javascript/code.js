@@ -33,7 +33,7 @@ $('#login').append("<div class=\"loginname\"><button type=\"button\" class=\"btn
 											  minlength:15
 										  },
 										  
-										  EmailId:{
+								                  EmailId:{
 											  required:true,
 											  email :true
 										  },
